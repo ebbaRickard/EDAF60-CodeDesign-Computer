@@ -6,5 +6,9 @@ public class LongWordFactory implements WordFactory{
 		return new LongWord(value);
 	}
 	
+	public void testMethod() {
+		System.out.println("Hejsan");
+	}
+	
 
 }
