@@ -13,6 +13,10 @@ private List<Word> cells;
 //			cells.add(wf.word("0"));
 //		}
 //	}
+
+public void hello() {
+	
+}
 	
 
 }
