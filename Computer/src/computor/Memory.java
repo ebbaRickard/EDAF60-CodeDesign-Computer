@@ -5,7 +5,7 @@ import words.*;
 
 public class Memory {
 
-//	private List<Word> cells;
+private List<Word> cells;
 //	
 //	public Memory(int size, WordFactory wf) {
 //		for(int i = 0; i < size; i++) {
