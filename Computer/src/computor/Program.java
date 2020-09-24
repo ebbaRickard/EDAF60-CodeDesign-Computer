@@ -10,9 +10,14 @@ public abstract class Program {
 		instructions.add(i);
 	}
 	public String toString() {
+		int j = 0;
+		String tot;
 		for(Instruction i : instructions) {
-			i.toString();
+			tot = tot + j + ": "
+			tot = tot + i.toString() + \n;
+			j++;
 		}
+		return tot;
 	}
 	public void get(InstructionPointer p) {
 		instructions.get(p.value());
