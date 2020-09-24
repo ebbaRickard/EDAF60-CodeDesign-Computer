@@ -6,6 +6,7 @@ public class ByteWord extends Word{
 	
 	public ByteWord(String value) {
 		this.value = Byte.parseByte(value);
+		// Hej på er alla!
 	}
 	
 	public void add(Word word) {
