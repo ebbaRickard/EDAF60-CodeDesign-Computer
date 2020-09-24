@@ -4,6 +4,7 @@ import java.util.List;
 import words.*;
 
 public class Memory {
+	
 
 //	private List<Word> cells;
 //	
@@ -12,8 +13,6 @@ public class Memory {
 //			cells.add(wf.word("0"));
 //		}
 //	}
-//	
-//	public Word read(Address a) {
-//		return cells.getWord(a);
-//	}
+	
+
 }
