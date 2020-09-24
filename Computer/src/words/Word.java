@@ -1,6 +1,6 @@
 package words;
 
-public abstract class Word {
+public abstract class Word implements Operand{
 	
 	public abstract void add(Word word);
 	
@@ -10,7 +10,7 @@ public abstract class Word {
 	
 	public abstract boolean equals(Word word);
 	
-	public abstract Word getWord();
+	public abstract Word getWord(Memory m);
 	
 	public abstract String toString();
 	
