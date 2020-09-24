@@ -16,8 +16,8 @@ public class Memory {
 		}
 
 	}
-	public Word read(Address) { 
-		return null; //Ska ändras!
+	public Word read(Address a) { 
+		return cells.get(a.getIndex());
 	}
 
 }
