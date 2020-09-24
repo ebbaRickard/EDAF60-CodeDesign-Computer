@@ -29,7 +29,7 @@ public class ByteWord extends Word{
 		return this.getValue() == w.getValue();
 	}
 
-	public Word getWord() {
+	public Word getWord(Memory m) {
 		return this;
 	}
 
