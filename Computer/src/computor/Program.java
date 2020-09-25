@@ -1,4 +1,4 @@
-
+package computor;
 public abstract class Program {
 	List<Instruction> instructions;
 	

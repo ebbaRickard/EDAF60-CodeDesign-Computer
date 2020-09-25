@@ -1,4 +1,4 @@
-
+package computor;
 public class Factorial extends Program {
 	public Factorial  (String value, WordFactory wf) {
         Address n = new Address(0),

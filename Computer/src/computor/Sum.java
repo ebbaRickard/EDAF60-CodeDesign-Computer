@@ -1,3 +1,4 @@
+package computor;
 class Sum extends Program {
 
     public Sum  (String value, WordFactory wf) {
