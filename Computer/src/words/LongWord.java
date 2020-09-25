@@ -8,15 +8,17 @@ public class LongWord extends Word{
 		this.value = Long.parseLong(value);
 	}
 	
-	public void add(Word word) {
-		LongWord w = (LongWord) word;
-		this.value = (long) this.getValue() + w.getValue();
+	public void add(Word word1, Word word2) {
+		LongWord w1 = (LongWord) word1;
+		LongWord w2 = (LongWord) word2;
+		this.value = (long) w1.getValue() + w2.getValue();
 		
 	}
 
-	public void mul(Word word) {
-		LongWord w = (LongWord) word;
-		this.value = (long) this.getValue() * w.getValue();
+	public void mul(Word word1, Word word2) {
+		LongWord w1 = (LongWord) word1;
+		LongWord w2 = (LongWord) word2;
+		this.value = (long) w1.getValue() * w2.getValue();
 	}
 
 	public void write(Word word) {

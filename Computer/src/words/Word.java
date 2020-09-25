@@ -4,9 +4,9 @@ import src.computor.Memory;
 
 public abstract class Word implements Operand{
 	
-	public abstract void add(Word word);
+	public abstract void add(Word word1, Word word2);
 	
-	public abstract void mul(Word word);
+	public abstract void mul(Word word1, Word word2);
 	
 	public abstract void write(Word word);
 	

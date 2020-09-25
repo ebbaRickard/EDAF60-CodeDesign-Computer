@@ -8,7 +8,7 @@ public class Copy implements Instruction{
 		
 	}
 	public void execute(Memory m, InstructionPointer p) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	@Override

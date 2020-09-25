@@ -8,15 +8,17 @@ public class ByteWord extends Word{
 		this.value = Byte.parseByte(value);
 	}
 	
-	public void add(Word word) {
-		ByteWord w = (ByteWord) word;
-		this.value = (byte) ((byte) this.getValue() + w.getValue());
+	public void add(Word word1, Word word2) {
+		ByteWord w1 = (ByteWord) word1;
+		ByteWord w2 = (ByteWord) word2;
+		this.value = (byte) ((byte) w1.getValue() + w2.getValue());
 		
 	}
 
-	public void mul(Word word) {
-		ByteWord w = (ByteWord) word;
-		this.value = (byte) ((byte) this.getValue() * w.getValue());
+	public void mul(Word word1, Word word2) {
+		ByteWord w1 = (ByteWord) word1;
+		ByteWord w2 = (ByteWord) word2;
+		this.value = (byte) ((byte) w1.getValue() * w2.getValue());
 	}
 
 	public void write(Word word) {
