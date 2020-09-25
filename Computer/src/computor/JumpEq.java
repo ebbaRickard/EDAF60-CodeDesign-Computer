@@ -3,17 +3,19 @@ package src.computor;
 import src.words.*;
 
 public class JumpEq extends JumpInstruction {
-
-	public JumpEq(int nbr, Operand a, Operand b) {
-		
+	private Operand a, b;
+	public JumpEq(int i, Operand a, Operand b) {
+		super(i);
+		this.a = a;
+		this.b = b;
 	}
+	
 	public String toString() {
-		return null;
+		return super.toString() + " if"; //Ngt mer
 	}
 	@Override
-	protected void setInstruction(Memory m, InstructionPointer p) {
-		// TODO Auto-generated method stub
-		
+	protected boolean setInstruction(Memory m, InstructionPointer p) {
+		return a.getWord(m).equals(b.getWord(m));
 	}
 
 }

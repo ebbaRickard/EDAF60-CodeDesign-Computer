@@ -1,11 +1,23 @@
 package src.computor;
 public abstract class JumpInstruction implements Instruction{
-
+	private int newPointer;
+	
+	public JumpInstruction(int i) {
+		newPointer = i;
+	}
 	@Override
 	public void execute(Memory m, InstructionPointer p) {
-		// TODO Auto-generated method stub
+		if(setInstruction(m, p)) {
+			p.jumpTo(newPointer);
+		}
+		
 		
 	}
-	protected abstract void setInstruction(Memory m, InstructionPointer p);
+	protected abstract boolean setInstruction(Memory m, InstructionPointer p);
+	
+	@Override
+	public String toString() {
+		return "Jump to " + newPointer;
+	}
 
 }
