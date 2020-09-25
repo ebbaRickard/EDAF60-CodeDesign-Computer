@@ -1,4 +1,7 @@
-package computor;
+package src.computor;
+
+import src.words.*;
+
 public class Factorial extends Program {
 	public Factorial  (String value, WordFactory wf) {
         Address n = new Address(0),

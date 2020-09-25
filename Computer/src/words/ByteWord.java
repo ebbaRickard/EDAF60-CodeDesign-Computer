@@ -1,4 +1,4 @@
-package words;
+package src.words;
 
 public class ByteWord extends Word{
 
@@ -27,10 +27,6 @@ public class ByteWord extends Word{
 	public boolean equals(Word word) {
 		ByteWord w = (ByteWord) word;
 		return this.getValue() == w.getValue();
-	}
-
-	public Word getWord(Memory m) {
-		return this;
 	}
 
 	public String toString() {

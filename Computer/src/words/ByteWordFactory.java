@@ -1,4 +1,4 @@
-package words;
+package src.words;
 
 public class ByteWordFactory implements WordFactory {
 

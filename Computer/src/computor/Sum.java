@@ -1,4 +1,7 @@
-package computor;
+package src.computor;
+
+import src.words.*;
+
 class Sum extends Program {
 
     public Sum  (String value, WordFactory wf) {

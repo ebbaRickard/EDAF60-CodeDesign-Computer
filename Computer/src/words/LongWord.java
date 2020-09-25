@@ -1,4 +1,4 @@
-package words;
+package src.words;
 
 public class LongWord extends Word{
 
@@ -29,9 +29,6 @@ public class LongWord extends Word{
 		return this.getValue() == w.getValue();
 	}
 
-	public Word getWord(Memory m) {
-		return this;
-	}
 
 	public String toString() {
 		return Long.toString(this.value);
@@ -40,5 +37,6 @@ public class LongWord extends Word{
 	public long getValue() {
 		return this.value;
 	}
+
 
 }

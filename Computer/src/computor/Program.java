@@ -1,20 +1,25 @@
-package computor;
+package src.computor;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Program {
-	List<Instruction> instructions;
+	private List<Instruction> instructions;
 	
 	public Program() {
-		instructions = new ArrayList<>();
+		instructions = new ArrayList<Instruction>();
 	}
 	
-	public void add(Intruction i) {
+	public void add(Instruction i) {
 		instructions.add(i);
 	}
+	@Override
 	public String toString() {
 		int j = 0;
-		String tot;
+		String tot = "";
 		for(Instruction i : instructions) {
-			tot = tot + j + ": "
-			tot = tot + i.toString() + \n;
+			tot = tot + j + ": ";
+			tot = tot + i.toString() + "\n";
 			j++;
 		}
 		return tot;

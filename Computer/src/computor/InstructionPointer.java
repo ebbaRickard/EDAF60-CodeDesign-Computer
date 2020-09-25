@@ -1,4 +1,4 @@
-package computor;
+package src.computor;
 
 public class InstructionPointer {
 

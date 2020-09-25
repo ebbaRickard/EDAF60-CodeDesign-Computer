@@ -1,4 +1,6 @@
-package words;
+package src.words;
+
+import src.computor.Memory;
 
 public abstract class Word implements Operand{
 	
@@ -10,7 +12,9 @@ public abstract class Word implements Operand{
 	
 	public abstract boolean equals(Word word);
 	
-	public abstract Word getWord(Memory m);
+	public Word getWord(Memory m) {
+		return this;
+	}
 	
 	public abstract String toString();
 	

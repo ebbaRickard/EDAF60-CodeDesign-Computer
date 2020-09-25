@@ -1,4 +1,4 @@
-package computor;
+package src.computor;
 public class Computer {
 	private Program p;
 	private Memory m;

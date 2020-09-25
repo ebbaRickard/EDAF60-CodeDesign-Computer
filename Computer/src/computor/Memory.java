@@ -1,8 +1,9 @@
-package computor;
+package src.computor;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import words.*;
+import src.words.*;
 
 public class Memory {
 

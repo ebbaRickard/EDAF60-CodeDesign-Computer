@@ -1,3 +1,6 @@
+package src.words;
+
+import src.computor.Memory;
 
 public class Address implements Operand {
 	private int index;
