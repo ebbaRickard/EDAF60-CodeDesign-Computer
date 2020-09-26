@@ -13,6 +13,7 @@ public class Address implements Operand {
 	public Word getWord(Memory m) {
 		return m.read(this);
 	}
+	
 	protected int getIndex() {
 		return index;
 	}
