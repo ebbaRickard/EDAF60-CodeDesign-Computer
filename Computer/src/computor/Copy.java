@@ -14,7 +14,7 @@ public class Copy implements Instruction{
 	
 	@Override
 	public String toString() {
-		return null;
+		return "Copy";
 	}
 
 }

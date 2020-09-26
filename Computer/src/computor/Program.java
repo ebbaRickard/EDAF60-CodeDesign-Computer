@@ -13,6 +13,7 @@ public abstract class Program {
 	public void add(Instruction i) {
 		instructions.add(i);
 	}
+	
 	@Override
 	public String toString() {
 		int j = 0;
@@ -24,6 +25,7 @@ public abstract class Program {
 		}
 		return tot;
 	}
+	
 	public void get(InstructionPointer p) {
 		instructions.get(p.value());
 	}
