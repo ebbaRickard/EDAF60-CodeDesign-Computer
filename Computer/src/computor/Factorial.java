@@ -3,9 +3,8 @@ package src.computor;
 import src.words.*;
 
 public class Factorial extends Program {
-	public Factorial  (String value, WordFactory wf) {
-        Address n = new Address(0),
-                fac = new Address(1);
+    public Factorial(String value, WordFactory wf) {
+        Address n = new Address(0), fac = new Address(1);
         add(new Copy(wf.word(value), n));
         add(new Copy(wf.word("1"), fac));
         add(new JumpEq(6, n, wf.word("1")));
