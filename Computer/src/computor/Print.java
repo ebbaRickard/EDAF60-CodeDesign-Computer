@@ -10,6 +10,7 @@ public class Print implements Instruction {
 	
 	public void execute(Memory m, InstructionPointer p) {
 		System.out.println(a.getWord(m));
+		p.jumpTo(p.value() + 1);
 		
 	}
 	

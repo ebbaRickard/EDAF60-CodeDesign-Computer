@@ -11,6 +11,7 @@ public class Copy implements Instruction{
 	
 	public void execute(Memory m, InstructionPointer p) {
 		right.getWord(m).write(left.getWord(m));
+		p.jumpTo(p.value() + 1);
 	}
 	
 	@Override

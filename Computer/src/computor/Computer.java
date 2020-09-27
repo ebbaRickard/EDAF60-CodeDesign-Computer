@@ -10,6 +10,6 @@ public class Computer {
 		this.p = p;
 	}
 	public void run() {
-		
+		p.run(m);
 	}
 }

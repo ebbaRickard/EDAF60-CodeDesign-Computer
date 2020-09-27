@@ -9,6 +9,8 @@ public abstract class JumpInstruction implements Instruction{
 	public void execute(Memory m, InstructionPointer p) {
 		if(setInstruction(m, p)) {
 			p.jumpTo(newPointer);
+		}else {
+			p.jumpTo(p.value() + 1);
 		}
 		
 		

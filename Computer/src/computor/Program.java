@@ -26,8 +26,14 @@ public abstract class Program {
 		return tot;
 	}
 	
-	public void get(InstructionPointer p) {
-		instructions.get(p.value());
+	public Instruction get(InstructionPointer p) {
+		return instructions.get(p.value());
+	}
+	public void run(Memory m) {
+		InstructionPointer p = new InstructionPointer();
+		while(p.value() != -1) {
+			get(p).execute(m, p);
+		}
 	}
 	
 }
