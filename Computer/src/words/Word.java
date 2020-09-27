@@ -1,6 +1,6 @@
 package src.words;
 
-import src.computor.Memory;
+import src.computer.Memory;
 
 public abstract class Word implements Operand {
 

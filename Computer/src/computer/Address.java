@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 import src.words.Operand;
 import src.words.Word;

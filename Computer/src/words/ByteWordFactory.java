@@ -2,7 +2,7 @@ package src.words;
 
 public class ByteWordFactory implements WordFactory {
 
-    public Word word(String value) { // Ska returtypen vara ByteWord?
+    public Word word(String value) { 
         return new ByteWord(value);
     }
 }

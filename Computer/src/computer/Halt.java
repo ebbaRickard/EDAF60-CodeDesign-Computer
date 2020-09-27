@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 public class Halt implements Instruction {
 

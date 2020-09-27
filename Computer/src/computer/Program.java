@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,14 +16,15 @@ public abstract class Program {
 
     @Override
     public String toString() {
+        StringBuilder sb = new StringBuilder();
         int j = 0;
-        String tot = "";
+        
         for (Instruction i : instructions) {
-            tot = tot + j + ": ";
-            tot = tot + i.toString() + "\n";
+            sb.append(j + ": ");
+            sb.append(i.toString() + "\n");
             j++;
         }
-        return tot;
+        return sb.toString();
     }
 
     public Instruction get(InstructionPointer p) {

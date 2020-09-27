@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 public abstract class JumpInstruction implements Instruction {
     private int newPointer;

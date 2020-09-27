@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 import java.util.ArrayList;
 import java.util.List;

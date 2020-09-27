@@ -1,4 +1,4 @@
-package src.computor;
+package src.computer;
 
 import src.words.*;
 
@@ -12,7 +12,7 @@ public class JumpEq extends JumpInstruction {
     }
 
     public String toString() {
-        return super.toString() + " if " + a.toString() + " == " + b.toString(); // Ngt mer
+        return super.toString() + " if " + a.toString() + " == " + b.toString();
     }
 
     @Override
