@@ -11,7 +11,7 @@ public class JumpEq extends JumpInstruction {
 	}
 	
 	public String toString() {
-		return super.toString() + " if"; //Ngt mer
+		return super.toString() + " if " + a.toString() + " == " + b.toString(); //Ngt mer
 	}
 	@Override
 	protected boolean setInstruction(Memory m, InstructionPointer p) {
