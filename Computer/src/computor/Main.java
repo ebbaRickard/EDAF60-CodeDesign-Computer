@@ -16,7 +16,7 @@ public class Main {
 		Address a0 = new Address(0);
 		Address a1025 = new Address(1025);
 		System.out.println(smallMemory.read(a0));
-		System.out.println(smallMemory.read(a1025));  // Toppen denna fungerar inte.
+		//System.out.println(smallMemory.read(a1025));  // Toppen denna fungerar inte.
 		
 	}
 	

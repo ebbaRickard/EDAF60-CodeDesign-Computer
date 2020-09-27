@@ -17,4 +17,7 @@ public class Address implements Operand {
 	protected int getIndex() {
 		return index;
 	}
+	public String toString() {
+		return "[" + index + "]";
+	}
 }

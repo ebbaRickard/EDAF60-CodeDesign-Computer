@@ -11,7 +11,7 @@ public class Halt implements Instruction{
 	
 	@Override
 	public String toString() {
-		return null;
+		return "Halt";
 	}
 
 }
