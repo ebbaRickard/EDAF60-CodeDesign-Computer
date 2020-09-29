@@ -1,6 +1,6 @@
 # EDAF60 project
 
-##Run instructions
+## Run instructions
 Klona repository och kör main metoden i computer.Computer i Eclipse.
 ## Preparatory questions
 **1. Det finns ett antal klasser och gränssnitt i programkoden ovan och det behövs ytterligare några för att kunna implementera programmet. Vilka klasser saknas och vilka är gränssnitt respektive klasser?**
@@ -37,7 +37,7 @@ I Word klassen
 run("factorial(5) med olika slags ord", new Factorial("5", lwf), bwf);
 Vi returnerar ett felmeddelande när programmet laddas (eller körs).
 
-#Klassdiagram och Sekvensdiagram
+# Klassdiagram och Sekvensdiagram
 
 ![GUI](UML.png)
 ![GUImenu](SekvensdiagramComputer4.png)
