@@ -32,6 +32,9 @@ I Word klassen
 
 **8. Vad bör hända om någon gör följande felaktiga anrop?**
 run("factorial(5) med olika slags ord", new Factorial("5", lwf), bwf);
-
-
 Vi returnerar ett felmeddelande när programmet laddas (eller körs).
+
+#Klassdiagram och Sekvensdiagram
+
+![GUI](UML.png)
+![GUImenu](SekvensdiagramComputer4.png)
