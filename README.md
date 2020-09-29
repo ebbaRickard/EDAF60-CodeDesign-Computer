@@ -1,4 +1,7 @@
 # EDAF60 project
+
+##Run instructions
+Klona repository och kör main metoden i computer.Computer i Eclipse.
 ## Preparatory questions
 **1. Det finns ett antal klasser och gränssnitt i programkoden ovan och det behövs ytterligare några för att kunna implementera programmet. Vilka klasser saknas och vilka är gränssnitt respektive klasser?**
 
